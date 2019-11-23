@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"><!-- font awesome CDN -->
+    <title>Rock..Paper..Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors!</h1>
+    <h2>Press your choice to play!</h2>
+    <div class="row">
+      <div class="column">
+        <button type="button" class="rockbutton" onclick="play('rock')">
+        <i class="far fa-hand-rock"></i>
+       </button>
+      </div>
+      <div class="column">
+        <button type="button" class="paperbutton" onclick="play('paper')">
+          <i class="far fa-hand-paper"></i>
+        </button>
+      </div>
+      <div class="column">
+        <button type="button" class="scissorsbutton" onclick="play('scissors')">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+      </div>
+     </div>
+    <div class="results">
+      <h3>Computer played: </h3>
+      <p id="computerChoice" ></p>
+      <h3>You played: </h3>
+      <p id="userChoice" ></p>
+      <h3>Game Results: </h3>
+      <p id="gameResult" ></p>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>

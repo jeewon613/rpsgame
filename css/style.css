@@ -1,0 +1,52 @@
+html{
+  width:100%;
+  height:100%;
+
+}
+h1{
+  text-align:center;
+}
+
+body{
+  text-align:center;
+}
+h3{
+  padding-top: none;
+}
+p{
+  padding-top: none;
+}
+
+.rock-button{
+    cursor:pointer;
+  }
+
+  i{
+    font-size: 15em;
+  }
+
+button{
+  width: 20em;
+  height: 20em;
+  background-color: yellow;
+  border: 1em solid black;
+  border-radius: 3em;
+}
+
+.paper-button{
+  cursor: pointer;
+
+}
+
+
+.scissors-button{
+  cursor: pointer;
+}
+
+.row{
+  display:flex;
+  justify-content: space-evenly;
+}
+.column{
+  padding: 5px;
+}
